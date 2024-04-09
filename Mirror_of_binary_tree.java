@@ -1,5 +1,4 @@
 package java_program;
-
 public class Mirror_of_binary_tree {
         static class Node{
             int  data;
