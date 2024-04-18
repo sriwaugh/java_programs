@@ -20,5 +20,5 @@ public class Subsequence_of_the_String {
                 }
             }
         }
-    }
+}
 
