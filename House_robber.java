@@ -10,10 +10,8 @@ public class House_robber {
                 a[i]=s.nextInt();
             }
             for (int i = 0; i <n ; i++) {
-
                 sum+=a[i];
                 i++;
-
             }
             System.out.println(sum);
         }
