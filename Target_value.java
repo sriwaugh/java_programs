@@ -29,9 +29,6 @@ public class Target_value {
     }
 
     public static class Palindrome_array {
-
-
-        public class Palindrome_array {
             public static void main(String[] args) {
                 int n,ans=0;
                 Scanner s = new Scanner(System.in);
@@ -60,6 +57,6 @@ public class Target_value {
         }
 
     }
-}
+
 
 
