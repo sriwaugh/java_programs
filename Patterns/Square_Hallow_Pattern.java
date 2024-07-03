@@ -12,7 +12,7 @@ public class Square_Hallow_Pattern {
                       System.out.print("* ");
                   }
                   else {
-                      System.out.print(" ");
+                      System.out.print("  ");
                   }
             }
             System.out.println();
