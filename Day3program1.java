@@ -1,6 +1,4 @@
 package java_program;
-
-
 public class Day3program1 {
 
         public static void swap(int[] arr, int i, int j) {
