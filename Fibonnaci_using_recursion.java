@@ -18,7 +18,6 @@ public class Fibonnaci_using_recursion {
 
         public static void main(String[] args) {
             int a;
-            int b=0;
             Scanner s=new Scanner(System.in);
             a=s.nextInt();
             int res=fib(a);
