@@ -18,7 +18,7 @@ public class FindTheTargetvalue {
         return a;
     }
     public static void main(String[] args) {
-        int a[]=new int[]{1,2,3,4,5,8,7};
+        int a[]=new int[]{1,2,3,4,8,7};
         int b=5;
         int[] c=twoSum(a,b);
         for (int i = 0; i < c.length; i++) {
