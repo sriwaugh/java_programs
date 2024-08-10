@@ -3,7 +3,6 @@ import java.util.HashSet;
 public class Happy_number {
         public static void main(String[] args) {
             int a=25,sum=0;
-            int b=0;
             HashSet<Integer> n=new HashSet<>();
             while(true){
                 sum=0;
