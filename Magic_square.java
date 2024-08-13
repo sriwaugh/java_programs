@@ -3,7 +3,6 @@ import java.util.*;
 public class Magic_square {
         public static void main(String[] args) {
             int n,z=0,b=0,c=0,d=0;
-            int g=0;
             Scanner s=new Scanner(System.in);
             n=s.nextInt();
             int a[][]=new int[n][n];
