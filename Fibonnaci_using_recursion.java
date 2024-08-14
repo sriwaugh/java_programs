@@ -21,6 +21,7 @@ public class Fibonnaci_using_recursion {
             Scanner s=new Scanner(System.in);
             a=s.nextInt();
             int res=fib(a);
+            int b=0;
             System.out.println(res);
         }
 
