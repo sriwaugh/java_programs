@@ -34,6 +34,7 @@ public class ValidParentheses {
     public static void main(String[] args) {
         Scanner s= new Scanner(System.in);
         String a= s.next();
+        int b=0;
         boolean x=isValid(a);
         System.out.println(x);
     }
