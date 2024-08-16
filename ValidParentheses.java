@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class ValidParentheses {
     public static boolean isValid(String s) {
         char[] st=s.toCharArray();
+        int b=0;
         Stack<Character> a=new Stack();
         int n=st.length;
         for (int i = 0; i < n; i++)
