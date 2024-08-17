@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class leftRotateOfArray {
     public static void leftrotate(int arr[],int x)
     {
-       int n= arr.length;
+         int n= arr.length;
         for (int i = 0; i < x; i++) {
             int temp = arr[0];
             for (int j = 1; j < n; j++) {
