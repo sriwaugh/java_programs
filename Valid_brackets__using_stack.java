@@ -4,7 +4,7 @@ import java.util.Stack;
 public class Valid_brackets__using_stack {
         public static void main(String[] args) {
             Scanner s=new Scanner(System.in);
-            int a=0;
+            int b=0;
             System.out.println("Enter the brackets(Like {}()[])");
             String S=s.next();
             int  n=S.length();
