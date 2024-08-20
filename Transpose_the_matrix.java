@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Transpose_the_matrix {
         public static void main(String[] args) {
             int n,m,i,j;
-            int a=0;
             Scanner s=new Scanner(System.in);
             System.out.println("Enter the row of the matrix");
             n=s.nextInt();
