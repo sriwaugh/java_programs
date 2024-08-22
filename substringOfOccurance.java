@@ -7,7 +7,7 @@ public class substringOfOccurance {
         }
 
         public static void main(String[] args) {
-            String str1 = "Hello, World!";
+            String str1 = "Hello, World";
             String str2 = "World";
             System.out.println(substringSearch(str1, str2));
         }
