@@ -3,7 +3,6 @@ package java_program;
 public class substringOfOccurance {
         public static int substringSearch(String str1, String str2) {
             int index = str1.indexOf(str2);
-            int a=0;
             return index != -1 ? index : -1;
         }
 
