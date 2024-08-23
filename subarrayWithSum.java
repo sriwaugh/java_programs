@@ -5,7 +5,6 @@ public class subarrayWithSum {
         static void find_position(int[] a,int n,int t)
         {
             int sum=0;int first;
-            int b=0;
             for(int i=0;i<n;i++)
             {
                 sum=a[i];
