@@ -22,5 +22,6 @@ public class sortAnArray {
         for (int i = 0; i < n; i++) {
             System.out.print(arr[i]+" ");
         }
+        int a=0;
     }
 }
