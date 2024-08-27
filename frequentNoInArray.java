@@ -20,13 +20,14 @@ public class frequentNoInArray {
                 freq.put(arr[i], 1);
             }
         }
-         int maxValue=0;
+         int maxValue=0,maxno=0;
          for (Map.Entry<Integer,Integer> entry :freq.entrySet())
          {
-             if (entry.getValue() > maxValue) {
-                 maxValue = entry.getKey();
+             if (entry.getValue() >= maxValue) {
+                 maxno =entry.getKey();
+                 maxValue = entry.getValue();
              }
          }
-        System.out.println("The most frequent number is "+maxValue);
+        System.out.println("The most frequent number is "+maxno);
     }
 }
