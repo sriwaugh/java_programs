@@ -21,7 +21,6 @@ public class ArrayAvgIsIntegerOrNot {
         } else {
             int rem = avg %  n;
             System.out.println("If you add this number it can be a Whole Integer "+ (n-rem));
-
         }
     }
 }
