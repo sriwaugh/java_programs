@@ -15,14 +15,14 @@ public class IndexOfSubArraySum {
         System.out.println("Enter the target sum value");
         int a=s.nextInt();
         ArrayList<Integer> val=new ArrayList<>();
-        int sum=0,first=0;
+        int sum=0,first=0,last=0;
         for (int i = 0; i < n-1; i++) {
             for (int j = i; j < n; j++) {
                 val.add(0);
                 sum += arr[j];
                 if (sum == a) {
                     val.add(1, j);
-                    System.out.println("The sum of elements from " + first + "to" + last);
+                    System.out.println(val);
                     System.exit(0);
                 }
                 if (sum > a) {
