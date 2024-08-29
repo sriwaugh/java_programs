@@ -15,7 +15,7 @@ public class IndexOfSubArraySum {
         System.out.println("Enter the target sum value");
         int a=s.nextInt();
         ArrayList<Integer> val=new ArrayList<>();
-        int sum=0,first=0,last=0;
+        int sum=0,first=0;
         for (int i = 0; i < n-1; i++) {
             for (int j = i; j < n; j++) {
                 val.add(0);
