@@ -5,7 +5,6 @@ import java.util.Stack;public class Length_of_the_word {
             a.push("hello");
             a.push("world");
             String z=a.peek();
-            int b=0;
             System.out.println(z.length());
         }
     }
