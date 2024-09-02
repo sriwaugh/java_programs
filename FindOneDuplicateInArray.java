@@ -1,8 +1,6 @@
 package java_program;
-
 import java.util.Arrays;
 import java.util.Scanner;
-
 public class FindOneDuplicateInArray {
     public static void findduplicate(int arr[])
     {
