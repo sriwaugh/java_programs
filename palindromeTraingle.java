@@ -1,6 +1,6 @@
 package java_program;
 
-public class sample1 {
+public class palindromeTraingle {
     public static void main(String[] args) {
 
     }
