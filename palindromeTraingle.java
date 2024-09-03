@@ -2,7 +2,7 @@ package java_program;
 import java.util.*;
 
 public class palindromeTraingle {
-    public List<List<Integer>> generate(int numRows) {
+    public static  List<List<Integer>> generate(int numRows) {
         List<List<Integer>> result =new ArrayList<>();
         if(numRows==0)
         {
@@ -30,6 +30,8 @@ public class palindromeTraingle {
         return result;
     }
     public static void main(String[] args) {
-
+         Scanner s=new Scanner(System.in);
+         int n=s.nextInt();
+         generate(n);
     }
 }
