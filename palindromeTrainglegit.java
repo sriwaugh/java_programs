@@ -34,7 +34,7 @@ public class palindromeTrainglegit {
     }
     public static void main(String[] args) {
         Scanner s=new Scanner(System.in);
-        int n=s.nextInt();
+         int n=s.nextInt();
         System.out.println(generate(n));
     }
 }
