@@ -17,6 +17,7 @@ public class sample7 {
     public static void main(String[] args) {
         int[] a=new int[]{1,2,3,4,5,5,6,7};
         int b=5;
+        int c=0;
         System.out.println(removeElement(a,b));
     }
 }
