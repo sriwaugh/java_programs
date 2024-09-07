@@ -11,5 +11,6 @@ public class sample4 {
             System.out.print(" "+sent[i]);
 
         }
+        int a=0;
     }
 }
