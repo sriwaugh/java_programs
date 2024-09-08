@@ -23,7 +23,6 @@ public class InsertionSort {
     public static void main(String[] args) {
         int arr[]={10,9,8,7,6,5};
         int n=arr.length;
-        int a=0;
         Insertionsort(arr,n);
     }
 }
