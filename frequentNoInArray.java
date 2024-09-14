@@ -28,6 +28,6 @@ public class frequentNoInArray {
                  maxValue = entry.getValue();
              }
          }
-        System.out.println("The most frequent number is "+maxno);
+        System.out.println("The  frequent number is "+maxno);
     }
 }
