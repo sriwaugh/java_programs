@@ -15,7 +15,7 @@ public class Happy_number {
                 System.out.println(sum);
                 if(sum==1)
                 {
-                    System.out.println("Its ahappy number");
+                    System.out.println("its ahappy number");
                     System.exit(0);
                 }
                 a=sum;
